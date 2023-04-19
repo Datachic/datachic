@@ -35,7 +35,7 @@ export default function App() {
                       <div className="cardinfo"></div> 
                       </SwiperSlide> */}
                     <SwiperSlide>
-                    <img src="images/journalApp.png" alt="projectPicture"/>
+                    <img src="images/journal.png" alt="projectPicture"/>
                       <div className="cardinfo">
                        <h2 className="ed">Daily Journal</h2>
                         <p className="ikon">A simple journal app. Each entry can be edited
