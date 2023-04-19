@@ -1,0 +1,118 @@
+#navB {
+    display: none;
+    width: 100%;
+    padding-left: 15px;
+    /* font-family: 'Itim', cursive; */
+    padding-top: 10px;
+    position: absolute;
+    box-shadow: 0 0 3px 2px #606460;
+    z-index: 1000;
+  }
+
+  .nav-link.ff {
+    margin: 5px 0 0 1px;
+  }
+  
+  .navbar-toggler:hover {
+    background: rgba(113, 224, 228, 0.4);
+  }
+  
+  .navB button.navbar-toggler {
+    font-size: 1.2rem;
+    display: inline;
+    border-radius: 15px;
+    outline: none;
+    box-shadow: -0.3px -0.2px 3px 1px rgba(215, 233, 233, 0.5) , 
+                 2px 2px 2px 1px rgba(9, 17, 17, 0.4);
+  }
+  
+  .navB button.navbar-toggler:active{
+    outline-style: none;
+    box-shadow: inset 2px 3px 3px 2px rgba(12, 17, 17, 0.5), 
+                inset -1px -2px 3px 2px rgba(226, 243, 243, 0.6);
+  }
+  
+  nav.bg-dark {
+    background: rgba(8, 7, 7, 0.8)!important;
+  }
+  
+  .navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 0.3);
+  }
+  
+  .navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link:hover,  
+  .barnav .info .ulnav .nav-link:hover{
+    color: rgb(9, 209, 192);
+  }
+  
+  #navbarDropdownMenuLink {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #navB .dropdown-menu a.dropdown-item{
+      font-size: 0.7rem;
+  }
+  li.ddr #navbarDropdownMenuLink {
+    margin: 8px 15px 10px 7px;
+  }
+
+  
+  /* RESPONSIVE CSS
+-------------------------------------------------- */
+@media (max-width: 575px) {
+    
+  #navB {
+    display: block;
+  }
+  .navbar-toggler{
+    display: inline;
+  }
+
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width:576px) and (max-width:767px) {
+    #navB {
+        display: block;
+        padding-left: 15px;
+        padding-top: 10px;
+      }
+    
+      .nav-link.ff {
+        margin: 5px 0 0 1px;
+      }
+    
+      .navbar-toggler {
+        font-size: 1.3rem;
+      }
+      
+  li.ddr #navbarDropdownMenuLink {
+    margin: 3px 1px 2px 0.5px;
+  }
+
+    
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #navB {
+        display: none;
+      }
+    
+}
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1134.98px) {
+    
+  #navB {
+    display: none;
+  }
+
+}
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1135px) and (max-width: 1268px) {
+    
+}
+  

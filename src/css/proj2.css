@@ -1,0 +1,264 @@
+/* Middle Container
+-------------------------------------------------- */
+#projects{
+    position: relative;
+    height: 750px;
+    width: 100%;
+  } 
+
+  div.sweep{
+    display: flex;
+    justify-content: center;
+    /* align-content: flex-center; */
+    align-items: center;
+
+  }
+  .swiper {
+    width: 100%;
+    height: auto;
+    /* on projects.css and it works
+    width: 380px;
+    height: 490px;*/ 
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;  
+    overflow: hidden;
+    list-style: none;  
+    padding: 0;
+    z-index: 1; 
+  }
+  
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 390px;
+    height: 450px;
+    /* on projects.css and it works
+     width: 100%;
+    height: 100%;
+    */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    margin-top: 110px;
+    margin-bottom: 90px;
+    padding: 40px;
+    font-weight: bold;
+    color: #fff;
+    flex-shrink: 0;
+    position: relative;
+    transition-property: transform; 
+  }
+
+  .swiper-slide p.ikon{
+    letter-spacing: 0.22rem;
+    font-size: 0.7rem;
+    line-height: 18px;
+    padding: 4px;
+  }
+  
+  img{
+    width:320px;
+    height: 400px;
+  }
+
+  .swiper-slide a{
+    font-size: 17px;
+  }
+
+    /* on projects.css and it works*/
+.swiper-cards {   /* very important, dont remove! */
+        overflow: visible; 
+  }
+
+  /* RESPONSIVE CSS
+-------------------------------------------------- */
+@media (max-width: 575px) {
+    #projects{
+        height: 500px;
+      } 
+
+    h2.ed{
+      font-size: 16px;
+    }
+    img{
+        height: 270px;
+      }
+    .swiper {
+      width: 350px;
+    /* on projects.css and it works
+        width: 250px;
+        height: 300px; 
+      */
+    }
+    .swiper-slide {
+      border-radius: 14px;
+      margin-top: 60px;
+      margin-bottom: 80px;
+      padding: 20px;
+      color: #fff;
+      width: 210px;
+      height: 300px;
+    }
+    .swiper-slide p.ikon{
+      letter-spacing: 0.15rem;
+      font-size: 0.65rem;
+      line-height: 17px;
+      padding: 4px;
+   }
+   
+    .swiper-slide a{
+      font-size: 10px;
+      letter-spacing: 0.1rem;
+    }
+  }
+  /*Small devices (landscape phones, 576px and up)*/
+ @media (min-width:576px) and (max-width:767px) {
+    #projects{
+        height: 510px;
+      } 
+
+    h2.ed{
+      font-size: 18px;
+    }
+    
+    .swiper {
+      width: 100%;
+    }
+  
+    img{
+        height: 270px;
+      }
+
+    .swiper-slide p.ikon{
+      letter-spacing: 0.2rem;
+      font-size: 0.7rem;
+      line-height: 18px;
+      padding: 4px;
+   }
+    
+    .swiper-slide {
+      border-radius: 14px;
+      margin-top: 40px;
+      margin-bottom: 70px;
+      padding: 16px;
+      color: #fff;
+      width: 250px;
+      height: 320px;
+    }
+    .swiper-slide a{
+      font-size: 11px;
+    }
+ }
+  /*Medium devices (tablets, 768px and up)*/
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    #projects{
+        height: 600px;
+      }    
+   
+    h2.ed{
+      font-size: 22px;
+    }
+    
+    .swiper-slide p.ikon{
+      letter-spacing: 0.25rem;
+      font-size: 0.75rem;
+      line-height: 18px;
+      padding: 4px;
+   }
+   
+    .swiper {
+      width: 100%;
+      /* height: 400px; */
+    }
+    img{
+        height: 300px;
+      }
+    .swiper-slide {
+      padding: 18px;
+      color: #fff;
+      margin-top: 40px;
+      margin-bottom: 70px;
+      width: 290px;
+      height: 360px;
+  
+    }
+  
+    .swiper-slide a{
+      font-size: 12px;
+    }
+  }
+  /* Large devices (desktops, 992px and up)*/
+  @media (min-width: 992px) and (max-width: 1134.98px) { 
+    #projects{
+        height: 640px;
+      }     
+  
+    h2.ed{
+      font-size: 20px;
+    }
+  
+   .swiper-slide p.ikon{
+      letter-spacing: 0.30rem;
+      font-size: 0.85rem;
+      line-height: 20px;
+      padding: 4px;
+    }
+    
+    .swiper {
+      width: 100%;
+      height: 50%;
+    }
+    
+    .swiper-slide {
+      padding: 30px;
+      color: #fff;
+      width: 310px;
+      height: 395px;
+  
+    }
+  
+    .swiper-slide a{
+      font-size: 15px;
+    }
+  }
+  /* Extra large devices (large desktops, 1200px and up)*/
+  @media (min-width: 1135px) and (max-width: 1268px) {
+    #projects{
+        /* background: tan; */
+        height: 720px;
+      } 
+   
+       h2.ed{
+         font-size: 22px;
+       }
+    
+      .swiper-slide p.ikon{
+         letter-spacing: 0.25rem;
+         font-size: 0.8rem;
+         line-height: 17px;
+         padding: 4px;
+       }
+       
+       .swiper {
+         width: 100%;
+         /* height: 50%; */
+       }
+       
+       .swiper-slide {
+         padding: 25px;
+         color: #fff;
+         font-size:22px ;
+         width: 320px;
+         height: 400px;
+     
+       }
+     
+       .swiper-slide a{
+         font-size: 15px;
+       }
+  }
+  
+  
