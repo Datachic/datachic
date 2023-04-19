@@ -30,8 +30,12 @@ export default function App() {
                     modules={[EffectCoverflow, Pagination]}
                     className="mySwiper"
                 >
+                    {/* <SwiperSlide>
+                      <img src="images/journalApp.png" alt="projectPicture"/>
+                      <div className="cardinfo"></div> 
+                      </SwiperSlide> */}
                     <SwiperSlide>
-                    <img src="https://swiperjs.com/demos/images/nature-1.jpg" alt="projectPicture"/>
+                    <img src="images/journalApp.png" alt="projectPicture"/>
                       <div className="cardinfo">
                        <h2 className="ed">Daily Journal</h2>
                         <p className="ikon">A simple journal app. Each entry can be edited
@@ -45,7 +49,7 @@ export default function App() {
                     </SwiperSlide>
 
                     <SwiperSlide>
-                    <img src="https://swiperjs.com/demos/images/nature-2.jpg" alt="projectPicture"/>
+                    <img src="images/todo.png" alt="projectPicture"/>
                     <div className="cardinfo">
                         <h2 className="ed">Todo App</h2>
                         <p className="ikon ">An app to specifically manage daily todo. 
@@ -58,7 +62,7 @@ export default function App() {
                     </SwiperSlide>
 
                     <SwiperSlide>
-                    <img src="https://swiperjs.com/demos/images/nature-3.jpg" alt="projectPicture"/>
+                    <img src="images/drum.png" alt="projectPicture"/>
                     <div className="cardinfo"><h2>Drum Kit</h2>
                     <p className="ikon"> Play drums.
                     <br/> HTML | CSS | Javascript | Fully Responsive</p>
@@ -67,7 +71,7 @@ export default function App() {
                      </SwiperSlide>
 
                     <SwiperSlide>
-                    <img src="https://swiperjs.com/demos/images/nature-4.jpg" alt="projectPicture"/>
+                    <img src="images/tindog.png" alt="projectPicture"/>
                     <div className="cardinfo">  <h2 className="ed">Tindog</h2>
                   <p className="ikon">Tindog website is a tinder 
                   clone  but for dogs 🤣🤣🤣. It was designed as 
@@ -76,11 +80,6 @@ export default function App() {
                   <a href="https://datachic.github.io/TinDog/" 
                   name="slide 4">...go to live website</a>   </div>                  
                     </SwiperSlide>
-
-                    {/* <SwiperSlide>
-                    <img src="https://swiperjs.com/demos/images/nature-5.jpg" alt="projectPicture"/>
-                    <div className="cardinfo"></div> 
-                    </SwiperSlide> */}
                     {/* <SwiperSlide>
                     <img src="https://swiperjs.com/demos/images/nature-6.jpg" alt="projectPicture"/>
                     <div className="cardinfo"></div> 
