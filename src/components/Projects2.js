@@ -30,10 +30,19 @@ export default function App() {
                     modules={[EffectCoverflow, Pagination]}
                     className="mySwiper"
                 >
-                    {/* <SwiperSlide>
-                      <img src="images/journalApp.png" alt="projectPicture"/>
-                      <div className="cardinfo"></div> 
-                      </SwiperSlide> */}
+                    <SwiperSlide>
+                      <img src="images/calc.png" alt="projectPicture"/>
+                      <div className="cardinfo">
+                      <h2 className="ed"> Calculator</h2>
+                        <p className="ikon">A simple calculator. 
+                          
+                        <br/>
+                        <br/> HTML | CSS | Javascript | Fully Responsive.
+                        </p>
+                        <a href="https://datachic.github.io/calcApp/" 
+                        name="slide 1">...go to live website</a> 
+                      </div> 
+                      </SwiperSlide>
                     <SwiperSlide>
                     <img src="images/journal.png" alt="projectPicture"/>
                       <div className="cardinfo">
