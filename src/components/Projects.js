@@ -30,7 +30,7 @@ function Projects() {
                      <br/> HTML | CSS | Javascript | Node.js| 
                      Express | MongoDb | Mongoose | Fully Responsive.
                   </p>
-                    <a href="https://daily--app.herokuapp.com/" 
+                    <a href="https://journal-riaa.onrender.com/" 
                       name="slide 1">...go to live website</a> 
                 </SwiperSlide>
                 <SwiperSlide>
