@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/datachic/static/css/main.38a87d34.css",
+    "main.js": "/datachic/static/js/main.22b4e527.js",
+    "index.html": "/datachic/index.html",
+    "main.38a87d34.css.map": "/datachic/static/css/main.38a87d34.css.map",
+    "main.22b4e527.js.map": "/datachic/static/js/main.22b4e527.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.38a87d34.css",
+    "static/js/main.22b4e527.js"
+  ]
+}
