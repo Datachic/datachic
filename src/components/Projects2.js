@@ -30,6 +30,18 @@ export default function App() {
                     modules={[EffectCoverflow, Pagination]}
                     className="mySwiper"
                 >
+                 <SwiperSlide>
+                      <img src="images/winnyz2.jpg" alt="projectPicture"/>
+                      <div className="cardinfo">
+                      <h2 className="ed"> Winnyz Interiors</h2>
+                        <p className="ikon">A Furniture store complete with payment system.   
+                        <br/>
+                        <br/> HTML | CSS | Javascript | MERN | Fully Responsive.
+                        </p>
+                        <a href="https://datachic.github.io/winnyzinteriors/" 
+                        name="slide 1">...go to live website</a> 
+                      </div> 
+                      </SwiperSlide>
                     <SwiperSlide>
                       <img src="images/calc.png" alt="projectPicture"/>
                       <div className="cardinfo">
@@ -89,10 +101,6 @@ export default function App() {
                   <a href="https://datachic.github.io/TinDog/" 
                   name="slide 4">...go to live website</a>   </div>                  
                     </SwiperSlide>
-                    {/* <SwiperSlide>
-                    <img src="https://swiperjs.com/demos/images/nature-6.jpg" alt="projectPicture"/>
-                    <div className="cardinfo"></div> 
-                    </SwiperSlide> */}
                     {/* <SwiperSlide>
                     <img src="https://swiperjs.com/demos/images/nature-7.jpg" alt="projectPicture"/>
                     <div className="cardinfo"></div> 

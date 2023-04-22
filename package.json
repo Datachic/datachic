@@ -2,7 +2,7 @@
   "name": "datachic",
   "version": "0.1.0",
   "private": true,
-  "homepage":"http://Datachic.github.io/datachic",
+  "homepage":"http://Datachic.github.io/datachic/",
   "dependencies": {
     "@emotion/react": "^11.8.1",
     "@emotion/styled": "^11.8.1",
@@ -48,6 +48,7 @@
     ]
   },
   "devDependencies": {
+    "nodemon": "2.0.22",
     "gh-pages": "^5.0.0"
   }
 }
